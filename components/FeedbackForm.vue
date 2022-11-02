@@ -13,13 +13,13 @@
         </label>
       </p>
       <input type="hidden" name="form-name" value="feedback" />
-      <label for="name">Name</label>
+      <label for="name">Nom</label>
       <input id="name" type="text" name="name" />
-      <label for="email">Email</label>
+      <label for="email">Courriel</label>
       <input id="email" type="email" name="email" required />
-      <label for="feedback">What is your feedback?</label>
+      <label for="feedback">Message?</label>
       <textarea id="feedback" wrap="soft" name="feedback" required></textarea>
-      <button type="submit">Submit</button>
+      <button type="submit">Envoyer</button>
     </form>
   </div>
 </template>
